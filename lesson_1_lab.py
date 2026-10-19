@@ -1,9 +1,7 @@
 hostname = "man-dis-02"
 mgmt_ip = "172.16.4.25"
 
-print(f"{hostname} manages {mgmt_ip}")
-
-print(hostname.upper())
+print(f"{hostname.upper()} manages {mgmt_ip}")
 
 octets = mgmt_ip.split(".")
 print(octets)
