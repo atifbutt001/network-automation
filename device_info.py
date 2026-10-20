@@ -22,7 +22,7 @@ print(device)
 
 # Safe lookup
 print(device.get("serial", "unknown"))
-print(device.get("model", "unkown"))
+print(device.get("model", "unknown"))
 
 # A router's interfaces as a dictionary
 interfaces = {
